@@ -7,33 +7,33 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
-  alternates: {
-    canonical: "https://meikopoulos.com",
-  },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  // metadataBase: new URL("https://meikopoulos.com"),
+  // alternates: {
+  //   canonical: "https://meikopoulos.com",
+  // },
+  title: "Muzzamil Hussain - Senior Software Engineer",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "Muzzamil Hussain is a Senior Software Engineer.",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Muzzamil Hussain, Software Engineer, AI, Web3, User Experience, UI/UX Design, Front-end Development, Back-end Development, Full Stack, Nayatel, Technology, Innovation, Human-Centered Design, Javascript, React, Node, Next",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Muzzamil Hussain",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Muzzamil Hussain",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
-    images: [
-      {
-        url: "./og-large-meik-2.jpg",
-      },
-    ],
+      "Muzzamil Hussain is a Engineer.",
+    // url: "https://meikopoulos.com",
+    // images: [
+    //   {
+    //     url: "./og-large-meik-2.jpg",
+    //   },
+    // ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Alexander Meikopoulos",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Muzzamil Hussain",
+  // },
 };
 
 export default function RootLayout({
