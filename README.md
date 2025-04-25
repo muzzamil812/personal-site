@@ -1,4 +1,3 @@
-# meikopoulos.com
 
 A personal website inspired by the design of [Brittany Chiang's website](https://brittanychiang.com). All design credits go to Brittany Chiang. 🌟
 
@@ -35,7 +34,7 @@ Remember, it's essential to respect other people's work! Thanks.
 ### TL;DR 📝
 - The design of this website is inspired by and credited to Brittany Chiang.
 - The site was independently coded and developed by me by re-creating Brittany's original design.
-- **You can fork this repo but make sure you attribute by linking back to [brittanychiang.com](https://brittanychiang.com) and [meikopoulos.com](https://meikopoulos.com).**
+- **You can fork this repo but make sure you attribute by linking back to [brittanychiang.com](https://brittanychiang.com).**
 
 ## Getting Started 🚀
 
