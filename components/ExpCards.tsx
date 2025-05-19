@@ -51,7 +51,7 @@ export default function ExpCard() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col p-0">
-                <p className="text-inherit font-bold">
+                <p className="text-foreground font-bold group-hover/link:text-inherit">
                   {job.currentPosition} • {job.place}
                   <UpArrow />
                 </p>
