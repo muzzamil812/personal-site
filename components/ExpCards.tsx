@@ -41,9 +41,8 @@ export default function ExpCard() {
       </div>
       <>
         {jobPositions.map((job, index) => (
-          <a className="cursor-pointer group/link" href={job.url} target="_blank">
+          <a className="cursor-pointer group/link" href={job.url} target="_blank" key={index}>
             <Card
-              key={index}
               className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200 text-white hover:text-[hsl(var(--primary))]"
             >
               <CardHeader className="h-full w-full p-0">
@@ -54,7 +53,7 @@ export default function ExpCard() {
               <CardContent className="flex flex-col p-0">
                 <p className="text-inherit font-bold">
                   {job.currentPosition} • {job.place}
-                  <UpArrow key={index} />
+                  <UpArrow />
                 </p>
                 {job.previousPositions.map((position, index) => (
                   <p key={index} className="text-slate-400 text-sm font-bold">
