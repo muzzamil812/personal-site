@@ -54,7 +54,7 @@ export default function ExpCard() {
               <CardContent className="flex flex-col p-0">
                 <p className="text-inherit font-bold">
                   {job.currentPosition} • {job.place}
-                  <UpArrow />
+                  <UpArrow key={index} />
                 </p>
                 {job.previousPositions.map((position, index) => (
                   <p key={index} className="text-slate-400 text-sm font-bold">
