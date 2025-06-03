@@ -8,7 +8,7 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MoveUpRight } from "lucide-react";
+import UpArrow from "./ui/upArrow";
 
 const jobProjects: any[] = [
   {
@@ -37,9 +37,9 @@ export default function Projects() {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:cursor-pointer"
+            className="group/link"
           >
-            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
+            <Card className="group lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200 hover:text-[hsl(var(--primary))]">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
                 <Image
                   src={project.imagePath}
@@ -51,9 +51,9 @@ export default function Projects() {
                 />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
-                <p className="text-primary font-bold">
+                <p className="text-foreground font-bold group-hover/link:text-inherit">
                   {project.title}{" "}
-                  <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
+                  <UpArrow />
                 </p>
                 <CardDescription className="py-3 text-muted-foreground">
                   {project.description}
